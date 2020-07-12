@@ -1,1 +1,1 @@
-# fancontrol2
+# fancontrol2 for dreambox dm800se
