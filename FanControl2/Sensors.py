@@ -43,7 +43,7 @@ class Sensors:
 		if sensor[0] == self.TYPE_TEMPERATURE:
 			f = open("%s/value" % sensor[3], "r")
 			try:
-				value = int(f.readline().strip())
+				value = int(f.readline().strip() or "0")
 			except:
 				pass
 			f.close()
