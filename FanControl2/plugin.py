@@ -46,21 +46,21 @@ Briefkasten = Queue.Queue()
 from boxbranding import getBoxType, getImageDistro
 
 global RPMread
-RPMread=0
+RPMread = 0
 global FanFehler
-FanFehler=0
+FanFehler = 0
 global AktTemp
-AktTemp=0
+AktTemp = 0
 global AktVLT
-AktVLT=0
+AktVLT = 0
 global AktPWM
-AktPWM=0
+AktPWM = 0
 global AktRPM
-AktRPM=0
+AktRPM = 0
 global AktTemp
-AktTemp=0
+AktTemp = 0
 global ZielRPM
-ZielRPM=0
+ZielRPM = 0
 
 def main(session,**kwargs):
 	try:
